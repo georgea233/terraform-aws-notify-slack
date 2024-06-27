@@ -281,3 +281,9 @@ variable "subscription_filter_policy_scope" {
   type        = string
   default     = null
 }
+
+variable "runtime" {
+  description = "The runtime environment for the Lambda function"
+  type        = string
+  default     = "python3.9"
+}
